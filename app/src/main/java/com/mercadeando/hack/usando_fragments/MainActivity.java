@@ -1,8 +1,10 @@
 package com.mercadeando.hack.usando_fragments;
 
+
+
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -18,7 +20,7 @@ public class MainActivity extends ActionBarActivity {
         findViewById(R.id.button_order).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, OrderActivity.class);
+                Intent intent = new Intent(MainActivity.this, CatalogActivity.class);
                 startActivity(intent);
             }
         });
