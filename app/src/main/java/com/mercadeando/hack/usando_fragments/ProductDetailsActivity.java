@@ -51,7 +51,7 @@ public class ProductDetailsActivity extends Activity {
         // Disable the add to cart button if the item is already in the cart
         if (cart.contains(selectedProduct)) {
             addToCartButton.setEnabled(false);
-            addToCartButton.setText("Item in Cart");
+            addToCartButton.setText("Producto ya agregado");
         }
     }
 
